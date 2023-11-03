@@ -1,0 +1,352 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "login with the username and password.",
+        "description": "",
+        "id": "adactin-hotel-booking;login-with-the-username-and-password.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5263245400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "launch the Adactin site",
+            "match": {
+              "location": "Stepdefinition.launch_the_Adactin_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160323300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the username",
+            "match": {
+              "location": "Stepdefinition.enter_the_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97861600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the  given password",
+            "match": {
+              "location": "Stepdefinition.enter_the_given_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 990002200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on the login",
+            "match": {
+              "location": "Stepdefinition.click_on_the_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Search the hotel and fill the required fields.",
+        "description": "",
+        "id": "adactin-hotel-booking;search-the-hotel-and-fill-the-required-fields.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 229766200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User choose the location",
+            "match": {
+              "location": "Stepdefinition.user_choose_the_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202274600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User choose the hotel name",
+            "match": {
+              "location": "Stepdefinition.user_choose_the_hotel_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 171983800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Choose the room type.",
+            "match": {
+              "location": "Stepdefinition.choose_the_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249552700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Choose the number of rooms.",
+            "match": {
+              "location": "Stepdefinition.choose_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111371000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter the Check in date.",
+            "match": {
+              "location": "Stepdefinition.enter_the_Check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97346000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter the check out date.",
+            "match": {
+              "location": "Stepdefinition.enter_the_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153969100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User choose the adults per room.",
+            "match": {
+              "location": "Stepdefinition.user_choose_the_adults_per_room()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 191614000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User choose number of children per room.",
+            "match": {
+              "location": "Stepdefinition.user_choose_number_of_children_per_room()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 786925200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on the Search.",
+            "match": {
+              "location": "Stepdefinition.click_on_the_Search()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Choose the hotel name from the avaliable options and continue.",
+        "description": "",
+        "id": "adactin-hotel-booking;choose-the-hotel-name-from-the-avaliable-options-and-continue.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152799800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User can select the hotel name .",
+            "match": {
+              "location": "Stepdefinition.user_can_select_the_hotel_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 709425100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click to continue.",
+            "match": {
+              "location": "Stepdefinition.click_to_continue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Book the hotel and fill the details of the user.",
+        "description": "",
+        "id": "adactin-hotel-booking;book-the-hotel-and-fill-the-details-of-the-user.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 129436800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Users first name.",
+            "match": {
+              "location": "Stepdefinition.users_first_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112054200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Users last name.",
+            "match": {
+              "location": "Stepdefinition.users_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83300200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Billing address of the user.",
+            "match": {
+              "location": "Stepdefinition.billing_address_of_the_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 314660400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Credit card number and the card type.",
+            "match": {
+              "location": "Stepdefinition.credit_card_number_and_the_card_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 815315900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Expiry date and the month.",
+            "match": {
+              "location": "Stepdefinition.expiry_date_and_the_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93670700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter the ccv number of the user.",
+            "match": {
+              "location": "Stepdefinition.enter_the_ccv_number_of_the_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161590800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click the book now.",
+            "match": {
+              "location": "Stepdefinition.click_the_book_now()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20236346600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Confirmation of user booking deatils appears Click on My ltinerary.",
+            "match": {
+              "location": "Stepdefinition.confirmation_of_user_booking_deatils_appears_Click_on_My_ltinerary()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Adactin hotel booking",
+    "description": "",
+    "id": "adactin-hotel-booking",
+    "keyword": "Feature",
+    "uri": "adatin.feature"
+  }
+]

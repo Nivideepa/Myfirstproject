@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="17.961137">
+    <testcase classname="Adactin hotel booking" name="Login scenario." time="4.592298">
+        <system-out>
+            <![CDATA[Given Vist the browser......................................................passed
+When Enter Username.........................................................passed
+And Enter Password..........................................................passed
+Then Click on the login.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Adactin hotel booking" name="Search the hotel and fill the required fields." time="2.072303">
+        <system-out>
+            <![CDATA[Given User choose the location..............................................passed
+Then User choose the hotel name.............................................passed
+And Choose the room type....................................................passed
+And Choose the number of rooms..............................................passed
+And Enter the Check in date.................................................passed
+And Enter the check out date................................................passed
+Then User choose the adults per room........................................passed
+When User choose number of children per room................................passed
+Then Click on the Search....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Adactin hotel booking" name="Choose the hotel name from the avaliable options and continue." time="0.901548">
+        <system-out>
+            <![CDATA[Given User can select the hotel name .......................................passed
+Then Click to continue......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Adactin hotel booking" name="Book the hotel and fill the details of the user." time="10.394988">
+        <system-out>
+            <![CDATA[Given Users first name......................................................passed
+And Users last name.........................................................passed
+And Billing address of the user.............................................passed
+And Credit card number and the card type....................................passed
+And Expiry date and the month...............................................passed
+And Enter the ccv number of the user........................................passed
+Then Click the book now.....................................................passed
+When Confirmation of user booking deatils appears Click on My ltinerary.....passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
